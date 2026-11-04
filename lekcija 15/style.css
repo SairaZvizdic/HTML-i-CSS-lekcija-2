@@ -1,0 +1,52 @@
+article p{
+    color:red;
+}
+article > p{
+    font-weight: bold;
+    
+}
+div p{
+    color:blue;
+}
+li:first-child{
+    color:green;
+}
+a:link{
+    color:rgb(0, 255, 4);
+}
+a:hover{
+    background-color:yellow;
+}
+a:visited{
+    color:purple;
+}
+a:active{
+    color:red;
+}
+input:focus{
+    background-color:rgb(238, 246, 8);
+}
+input:required{
+    border: 2px solid rgb(255, 149, 0);
+}
+
+input:valid{
+    background-color:rgb(121, 214, 98);
+}
+input:invalid{
+    background-color:rgb(214, 98, 135);
+}
+input:out-of-range {
+    border: 2px solid red;
+}
+.galerija > .kartica{
+    color:rgb(204, 127, 12);
+    padding: 10px;
+    opacity: 0.6;
+}
+.kartica:hover{
+    opacity: 1;
+}
+.kartica:first-child{
+    color:orange;
+}
